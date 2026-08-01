@@ -1,0 +1,565 @@
+fileFormatVersion: 2
+guid: 0d0b56032ee74f740a5258f26d8c19b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 279182820441532613
+    second: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+      (1)_0
+  - first:
+      213: -8252986753706850093
+    second: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+      (1)_1
+  - first:
+      213: 5589164535037724251
+    second: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+      (1)_2
+  - first:
+      213: -2685986581563413569
+    second: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+      (1)_3
+  - first:
+      213: -8981909838488547850
+    second: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+      (1)_4
+  - first:
+      213: -6489269053624907300
+    second: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+      (1)_5
+  - first:
+      213: 6639043323198862031
+    second: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+      (1)_6
+  - first:
+      213: -1205449455352875003
+    second: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+      (1)_7
+  - first:
+      213: -227944336617673627
+    second: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+      (1)_8
+  - first:
+      213: -6234125854307895255
+    second: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+      (1)_9
+  - first:
+      213: -1651141938559895808
+    second: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+      (1)_10
+  - first:
+      213: -5136829082961791389
+    second: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+      (1)_11
+  - first:
+      213: 3356811287577222753
+    second: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+      (1)_12
+  - first:
+      213: 6554105290394885648
+    second: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+      (1)_13
+  - first:
+      213: 64259087524356362
+    second: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+      (1)_14
+  - first:
+      213: -7551895988106760765
+    second: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+      (1)_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+        (1)_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1790
+        width: 529
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c82fc7cb4bdfd300800000000000000
+      internalID: 279182820441532613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+        (1)_1
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1789
+        width: 509
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d88c411640877d80800000000000000
+      internalID: -8252986753706850093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+        (1)_2
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1789
+        width: 500
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56822e2883b09d40800000000000000
+      internalID: 5589164535037724251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+        (1)_3
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1789
+        width: 500
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb627e5f6579bad0800000000000000
+      internalID: -2685986581563413569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+        (1)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1194
+        width: 512
+        height: 589
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fdcd401798d95380800000000000000
+      internalID: -8981909838488547850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+        (1)_5
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1194
+        width: 502
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd980c66d2c71f5a0800000000000000
+      internalID: -6489269053624907300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+        (1)_6
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1194
+        width: 501
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc272bf2abe922c50800000000000000
+      internalID: 6639043323198862031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+        (1)_7
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 1196
+        width: 526
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508f00b6b12654fe0800000000000000
+      internalID: -1205449455352875003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+        (1)_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 599
+        width: 530
+        height: 587
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c675365dd26dcf0800000000000000
+      internalID: -227944336617673627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+        (1)_9
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 597
+        width: 513
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92836e8b09feb79a0800000000000000
+      internalID: -6234125854307895255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+        (1)_10
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 596
+        width: 501
+        height: 589
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007336ea727f519e0800000000000000
+      internalID: -1651141938559895808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+        (1)_11
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 597
+        width: 500
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366ba264a2156b8b0800000000000000
+      internalID: -5136829082961791389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+        (1)_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 509
+        height: 589
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16edf06b41ac59e20800000000000000
+      internalID: 3356811287577222753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+        (1)_13
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 2
+        width: 502
+        height: 583
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ede76590cd4fa50800000000000000
+      internalID: 6554105290394885648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+        (1)_14
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 3
+        width: 503
+        height: 592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01ea75bc4b44e000800000000000000
+      internalID: 64259087524356362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4
+        (1)_15
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 4
+        width: 529
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cde2384c96423790800000000000000
+      internalID: -7551895988106760765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4 (1)_0: 279182820441532613
+      A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4 (1)_1: -8252986753706850093
+      A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4 (1)_10: -1651141938559895808
+      A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4 (1)_11: -5136829082961791389
+      A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4 (1)_12: 3356811287577222753
+      A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4 (1)_13: 6554105290394885648
+      A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4 (1)_14: 64259087524356362
+      A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4 (1)_15: -7551895988106760765
+      A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4 (1)_2: 5589164535037724251
+      A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4 (1)_3: -2685986581563413569
+      A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4 (1)_4: -8981909838488547850
+      A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4 (1)_5: -6489269053624907300
+      A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4 (1)_6: 6639043323198862031
+      A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4 (1)_7: -1205449455352875003
+      A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4 (1)_8: -227944336617673627
+      A-full-body-2D-side-scrolling-view-of-a-chubby-aqu-max-px-frames-16-rows-4-cols-4 (1)_9: -6234125854307895255
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

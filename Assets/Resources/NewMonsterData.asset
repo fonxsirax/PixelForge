@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1b1a4424862ab344845893a9dfc89a6, type: 3}
+  m_Name: NewMonsterData
+  m_EditorClassIdentifier: Assembly-CSharp::PixelForge.Data.MonsterData
+  displayName: 
+  icon: {fileID: 0}
+  moveSpeed: 2.5
+  animations:
+  - state: 0
+    sheet: {fileID: 2800000, guid: d83e157c9f8d49a4eb63dcfab00080c9, type: 3}
+    frames:
+    - {fileID: 4353763940529498248, guid: d83e157c9f8d49a4eb63dcfab00080c9, type: 3}
+    frameRate: 0
+  - state: 5
+    sheet: {fileID: 2800000, guid: 0d0b56032ee74f740a5258f26d8c19b7, type: 3}
+    frames:
+    - {fileID: 279182820441532613, guid: 0d0b56032ee74f740a5258f26d8c19b7, type: 3}
+    - {fileID: -8252986753706850093, guid: 0d0b56032ee74f740a5258f26d8c19b7, type: 3}
+    - {fileID: 5589164535037724251, guid: 0d0b56032ee74f740a5258f26d8c19b7, type: 3}
+    - {fileID: -2685986581563413569, guid: 0d0b56032ee74f740a5258f26d8c19b7, type: 3}
+    - {fileID: -8981909838488547850, guid: 0d0b56032ee74f740a5258f26d8c19b7, type: 3}
+    - {fileID: -6489269053624907300, guid: 0d0b56032ee74f740a5258f26d8c19b7, type: 3}
+    - {fileID: 6639043323198862031, guid: 0d0b56032ee74f740a5258f26d8c19b7, type: 3}
+    - {fileID: -1205449455352875003, guid: 0d0b56032ee74f740a5258f26d8c19b7, type: 3}
+    - {fileID: -227944336617673627, guid: 0d0b56032ee74f740a5258f26d8c19b7, type: 3}
+    - {fileID: -6234125854307895255, guid: 0d0b56032ee74f740a5258f26d8c19b7, type: 3}
+    - {fileID: -1651141938559895808, guid: 0d0b56032ee74f740a5258f26d8c19b7, type: 3}
+    - {fileID: -5136829082961791389, guid: 0d0b56032ee74f740a5258f26d8c19b7, type: 3}
+    - {fileID: 3356811287577222753, guid: 0d0b56032ee74f740a5258f26d8c19b7, type: 3}
+    - {fileID: 6554105290394885648, guid: 0d0b56032ee74f740a5258f26d8c19b7, type: 3}
+    - {fileID: 64259087524356362, guid: 0d0b56032ee74f740a5258f26d8c19b7, type: 3}
+    - {fileID: -7551895988106760765, guid: 0d0b56032ee74f740a5258f26d8c19b7, type: 3}
+    frameRate: 0
+  colliderSize: {x: 0.8, y: 0.8}
+  colliderOffset: {x: 0, y: 0}
+  speciesId: 
+  description: 
+  element: 0
+  maxHealth: 20
+  attackPower: 5
+  defense: 5
+  canBattle: 1
+  canCollectResources: 0
+  gatherPower: 1
