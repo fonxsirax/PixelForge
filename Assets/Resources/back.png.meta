@@ -1,0 +1,565 @@
+fileFormatVersion: 2
+guid: f905fe046b14e38499e1b3ae808bb31b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1981355596927817453
+    second: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+      (1)_0
+  - first:
+      213: -1492103182235476515
+    second: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+      (1)_1
+  - first:
+      213: -8647488316411525334
+    second: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+      (1)_2
+  - first:
+      213: -2975335938124929916
+    second: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+      (1)_3
+  - first:
+      213: -7899565880138985143
+    second: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+      (1)_4
+  - first:
+      213: 3926197665345226409
+    second: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+      (1)_5
+  - first:
+      213: 5068554725076549370
+    second: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+      (1)_6
+  - first:
+      213: -3323015382261706629
+    second: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+      (1)_7
+  - first:
+      213: 6667279260863224308
+    second: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+      (1)_8
+  - first:
+      213: -168226032816050656
+    second: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+      (1)_9
+  - first:
+      213: 7141918280232049141
+    second: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+      (1)_10
+  - first:
+      213: -276462840856136888
+    second: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+      (1)_11
+  - first:
+      213: -904179056764793352
+    second: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+      (1)_12
+  - first:
+      213: -7678359827660632842
+    second: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+      (1)_13
+  - first:
+      213: -12247363068704424
+    second: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+      (1)_14
+  - first:
+      213: -7470128698223847228
+    second: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+      (1)_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+        (1)_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 621
+        width: 192
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319a26f059fc084e0800000000000000
+      internalID: -1981355596927817453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+        (1)_1
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 620
+        width: 191
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddddf9eaf0cfa4be0800000000000000
+      internalID: -1492103182235476515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+        (1)_2
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 618
+        width: 190
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2743fc4133fdf780800000000000000
+      internalID: -8647488316411525334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+        (1)_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 618
+        width: 162
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4842c907abb75b6d0800000000000000
+      internalID: -2975335938124929916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+        (1)_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 413
+        width: 180
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941158a8faa1f5290800000000000000
+      internalID: -7899565880138985143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+        (1)_5
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 413
+        width: 191
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6ced889f7ac7630800000000000000
+      internalID: 3926197665345226409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+        (1)_6
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 417
+        width: 191
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afeb0d80baf175640800000000000000
+      internalID: 5068554725076549370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+        (1)_7
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 423
+        width: 191
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70d12dad1742e1d0800000000000000
+      internalID: -3323015382261706629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+        (1)_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 214
+        width: 180
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f9d41ab92fe68c50800000000000000
+      internalID: 6667279260863224308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+        (1)_9
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 212
+        width: 180
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ea60080575aadf0800000000000000
+      internalID: -168226032816050656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+        (1)_10
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 210
+        width: 191
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9991c16d03d1360800000000000000
+      internalID: 7141918280232049141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+        (1)_11
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 208
+        width: 191
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843bc21d28ec92cf0800000000000000
+      internalID: -276462840856136888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+        (1)_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3
+        width: 191
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdcf2c30f5b373f0800000000000000
+      internalID: -904179056764793352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+        (1)_13
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 3
+        width: 176
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc88ae1b6cf07590800000000000000
+      internalID: -7678359827660632842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+        (1)_14
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 3
+        width: 163
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859cad2961d74dff0800000000000000
+      internalID: -12247363068704424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4
+        (1)_15
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 3
+        width: 191
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c89ae30785c45890800000000000000
+      internalID: -7470128698223847228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4 (1)_0: -1981355596927817453
+      A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4 (1)_1: -1492103182235476515
+      A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4 (1)_10: 7141918280232049141
+      A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4 (1)_11: -276462840856136888
+      A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4 (1)_12: -904179056764793352
+      A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4 (1)_13: -7678359827660632842
+      A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4 (1)_14: -12247363068704424
+      A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4 (1)_15: -7470128698223847228
+      A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4 (1)_2: -8647488316411525334
+      A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4 (1)_3: -2975335938124929916
+      A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4 (1)_4: -7899565880138985143
+      A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4 (1)_5: 3926197665345226409
+      A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4 (1)_6: 5068554725076549370
+      A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4 (1)_7: -3323015382261706629
+      A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4 (1)_8: 6667279260863224308
+      A-full-body-view-of-a-small-juvenile-leaf-dragon-p-192px-frames-16-rows-4-cols-4 (1)_9: -168226032816050656
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
