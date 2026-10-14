@@ -209,6 +209,16 @@ Construções previstas:
 
 A base servirá como centro de operações do jogador durante toda a campanha.
 
+## 11.1 Cama — recuperação do time
+
+A **casa** do jogador contém uma **cama**, e usá-la **recupera a vida de todo o time de Forgelings** (§27.1), incluindo os derrotados. É a forma gratuita e confiável de se recuperar, ao custo de voltar até a base.
+
+A cama é a **primeira função mecânica de uma construção** definida no GDD — ela transforma a casa de decoração em infraestrutura obrigatória e dá à base um papel no loop de combate, não só no de coleta.
+
+**Alternativa em campo:** o jogador também pode usar **itens de cura** (§14) durante a aventura, sem precisar voltar. A troca é a de sempre: o item custa recurso e é finito, a cama é grátis mas custa deslocamento.
+
+Pontos a detalhar: se a cama tem cooldown ou consome tempo do ciclo dia/noite; se cura o **personagem** além do time; se itens de cura podem ser usados **dentro do ForgelingView** (§22) ou apenas fora de combate.
+
 ---
 
 # 12. Exploração
@@ -496,7 +506,7 @@ dano = potenciaDoAtaque
 ```
 
 - O **multiplicador elemental** é sempre aplicado antes da variação aleatória, para que a vantagem de tipo nunca seja apagada pela sorte.
-- O **bônus de afinidade** (+20% quando o Forgeling usa um ataque do próprio tipo) é uma proposta desta versão — ver §28.
+- O **bônus de afinidade** (+20% quando o Forgeling usa um ataque do próprio tipo) é uma proposta desta versão — ver §29.
 
 ## 20.8 Impacto no código existente
 
@@ -546,14 +556,24 @@ Todo combate de PixelForge acontece no **ForgelingView**.
 **O personagem durante a batalha:**
 
 - Fica **visível na cena**, parado na posição em que estava.
-- É **invulnerável** — não pode ser atingido nem alvejado por inimigos. Toda a tensão do combate está no Forgeling.
 - A câmera passa a seguir o **Forgeling**, não o personagem.
+
+**Invulnerabilidade condicional — a regra central do combate:**
+
+O personagem é **invulnerável enquanto houver um Forgeling seu em campo**. Não pode ser atingido nem alvejado; toda a tensão do combate está na criatura.
+
+No momento em que o jogador **fica sem Forgeling em campo** — time inteiro derrotado, ou nenhum Forgeling ativo — a invulnerabilidade cai:
+
+- Os inimigos passam a **enxergar o personagem como alvo válido**.
+- O personagem pode ser atacado e recebe dano normalmente.
+
+Consequência de design: o Forgeling não é só o seu dano, é o seu **escudo**. Perder o time não é uma derrota imediata — é a transição para o estado mais perigoso do jogo, em que o jogador precisa fugir, curar ou lutar com as próprias armas da profissão (§15) contra inimigos que agora o veem.
 
 **Troca de Forgeling em combate:**
 
 O jogador **não pode trocar livremente** o Forgeling ativo durante a batalha. A troca só acontece quando o Forgeling atual é **derrotado** — o próximo do time entra automaticamente (ou por escolha do jogador, se houver mais de um disponível), funcionando como uma "vida extra".
 
-Consequência de design: a escolha do Forgeling **antes** da batalha é uma decisão real e punível. Entrar contra um Sombrio sem um Sagrado no time (§20.6) significa lutar em desvantagem até o fim — não dá para consertar no meio da luta.
+Consequência de design: a escolha do Forgeling **antes** da batalha é uma decisão real e punível. Entrar contra um Sombrio sem um Sagrado no time (§20.6) significa lutar em desvantagem até o fim — não dá para consertar no meio da luta. E, ao contrário de um wipe convencional, o custo de errar não é uma tela de game over: é ficar exposto.
 
 ---
 
@@ -662,7 +682,7 @@ O teto rígido de 2× garante que speed **nunca** vire o atributo dominante — 
 
 Na prática: `TauntSource` é uma interface/lista de concessores, e o Caçador é apenas o primeiro deles. Isso mantém o Taunt como identidade do Caçador (ele tem de graça, sempre, sem custo de item) sem trancar a mecânica atrás da profissão — as outras profissões pagam com um consumível pelo que o Caçador faz nativamente.
 
-Pontos a detalhar: cooldown, alcance, chance de sucesso por raridade/nível do alvo, e o que acontece exatamente ao vencer o desafio (§28).
+Pontos a detalhar: cooldown, alcance, chance de sucesso por raridade/nível do alvo, e o que acontece exatamente ao vencer o desafio (§29).
 
 ## 26.3 Respawn de Forgelings
 
@@ -767,14 +787,52 @@ No nível 10, o crescimento por nível soma **+54%** sobre o base. A dispersão 
 
 ---
 
-# 28. Questões em Aberto
+# 28. Controles
+
+Os controles mudam conforme o modo: **exploração** (o jogador controla o personagem e comanda o Forgeling) e **ForgelingView** (§22 — o personagem fica parado e o controle passa para o Forgeling).
+
+## 28.1 Exploração
+
+| Input | Ação |
+|---|---|
+| **WASD** | Move o personagem |
+| **Botão do meio do mouse** | Comanda o Forgeling — move a criatura até o ponto clicado |
+| **Botão do meio sobre um objeto do mapa** | Faz o Forgeling **interagir com o cenário**: quebrar pedra, cortar árvore, cavar buraco, etc. |
+| **Botão direito** | **Interagir** — falar com NPCs, usar itens de quest, objetos interativos |
+| **1 · 2 · 3 · 4** | Dispara as Skills equipadas do Forgeling (§16) |
+
+**Botão do meio = comando do Forgeling.** É o botão dedicado a "mande sua criatura fazer algo lá". Clicar no chão move o Forgeling até o local; clicar sobre um objeto do cenário faz o Forgeling executar a Skill correspondente àquele objeto (§10) — pedra pede *Rock Smash*, árvore pede *Lumberjack*, solo escavável pede *Dig*, e assim por diante. Se o Forgeling ativo não possui a Skill exigida, o jogo deve sinalizar isso claramente (feedback visual no objeto e/ou mensagem), já que trocar de Forgeling é a resposta esperada.
+
+**Botão direito = interagir.** É sempre o jogador interagindo com o mundo: diálogo com NPC, coleta de item de quest, uso de estruturas da base. É também o botão que **ordena o ataque** ao clicar sobre um inimigo (§17), mantendo a leitura consistente de "botão direito age sobre o alvo apontado".
+
+## 28.2 ForgelingView (combate)
+
+| Input | Ação |
+|---|---|
+| **WASD** | Move o **Forgeling** (o personagem fica parado, §22) |
+| **1 · 2 · 3 · 4** | Skills de combate do Forgeling (§16) |
+| **Botão direito** | Define o alvo do auto-ataque (§25) / ordena o ataque |
+| **Botão do meio** | **Sem função** neste modo — o Forgeling já está sob controle direto |
+
+O auto-ataque (§25) dispara sozinho contra o alvo atual, sem input.
+
+## 28.3 Pontos a detalhar
+
+- Rebind de teclas e suporte a gamepad (Steam Deck é plataforma alvo, §3) — em especial o equivalente do "botão do meio" no controle.
+- Se o botão do meio deve suportar **clique com hold** para reposicionamento contínuo do Forgeling.
+- Comportamento do Forgeling ao terminar a interação com o cenário: volta a seguir o jogador automaticamente (§17) ou permanece no local?
+
+---
+
+# 29. Questões em Aberto
 
 Decisões que este documento levanta mas ainda não fecha:
 
 1. **Bônus de afinidade (+20%)** — §20.7 propõe o bônus para ataque do mesmo tipo do Forgeling. Confirmar se existe e com qual valor.
-2. **Time inteiro derrotado** — a troca só acontece quando o ativo cai (§22). O que acontece quando o **último** Forgeling do time é derrotado? Derrota, fuga forçada, perda de recursos, respawn na base?
-3. **Recuperação entre batalhas** — Forgelings derrotados voltam curados? Precisam de item, tempo ou de uma estrutura na base (§11)?
-4. **Taunt — detalhes** — cooldown, alcance, chance de sucesso por raridade/nível, e o que exatamente acontece ao vencer o desafio: o selvagem se junta direto, ou fica capturável sem cápsula? (§26.4)
-5. **Ovos** — condição de choco (tempo, passos, incubadora na base?) e como espécie, natureza e IVs do filhote são determinados.
-6. **Sombrio × Sagrado na progressão** — em que ponto da campanha o jogador tem acesso garantido a um Forgeling Sagrado (§20.6). Com a troca em combate travada (§22), essa dependência ficou mais rígida ainda.
-7. **Curva de XP** — como os 10 níveis (§27.2) se distribuem, e quanto XP um selvagem concede ao jogador *versus* ao Forgeling ativo (§26.1).
+2. **Morte do personagem** — com o time derrotado, o personagem vira alvo e pode morrer (§22). O que acontece então: respawn na base, perda de recursos, perda de XP, drop de itens no local?
+3. **Combate do personagem sozinho** — sem Forgeling em campo, o jogador luta com as armas da profissão (§16). Isso é uma rota viável de combate ou só uma janela de fuga? Definir se o personagem tem vida, defesa e dano competitivos ou deliberadamente frágeis.
+4. **Cama — detalhes** — cooldown, custo de tempo no ciclo dia/noite, se cura também o personagem, e se itens de cura funcionam dentro do ForgelingView (§11.1).
+5. **Taunt — detalhes** — cooldown, alcance, chance de sucesso por raridade/nível, e o que exatamente acontece ao vencer o desafio: o selvagem se junta direto, ou fica capturável sem cápsula? (§26.4)
+6. **Ovos** — condição de choco (tempo, passos, incubadora na base?) e como espécie, natureza e IVs do filhote são determinados.
+7. **Sombrio × Sagrado na progressão** — em que ponto da campanha o jogador tem acesso garantido a um Forgeling Sagrado (§20.6). Com a troca em combate travada (§22), essa dependência ficou mais rígida ainda.
+8. **Curva de XP** — como os 10 níveis (§27.2) se distribuem, e quanto XP um selvagem concede ao jogador *versus* ao Forgeling ativo (§26.1).
